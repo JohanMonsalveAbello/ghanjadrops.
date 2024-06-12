@@ -2,5 +2,14 @@
     "require": {
         "sendgrid/sendgrid": "^8.1",
         "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "classmap": [
+            "vendor/sendgrid/sendgrid/lib/"
+        ]
     }
 }
+
