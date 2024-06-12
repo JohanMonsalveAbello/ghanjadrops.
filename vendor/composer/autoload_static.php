@@ -24,6 +24,10 @@ class ComposerStaticInit65943e22150858dbd67c93dea1deb128
         array (
             'PHPMailer\\PHPMailer\\' => 20,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -55,12 +59,63 @@ class ComposerStaticInit65943e22150858dbd67c93dea1deb128
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
     );
 
     public static $classMap = array (
         'BaseSendGridClientInterface' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/BaseSendGridClientInterface.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'SendGrid' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/SendGrid.php',
+        'SendGrid\\Contacts\\Recipient' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/contacts/Recipient.php',
+        'SendGrid\\Contacts\\RecipientForm' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/contacts/RecipientForm.php',
+        'SendGrid\\EventWebhook\\EventWebhook' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/eventwebhook/EventWebhook.php',
+        'SendGrid\\EventWebhook\\EventWebhookHeader' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/eventwebhook/EventWebhookHeader.php',
+        'SendGrid\\Helper\\Assert' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/helper/Assert.php',
+        'SendGrid\\Mail\\Asm' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Asm.php',
+        'SendGrid\\Mail\\Attachment' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Attachment.php',
+        'SendGrid\\Mail\\BatchId' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/BatchId.php',
+        'SendGrid\\Mail\\Bcc' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Bcc.php',
+        'SendGrid\\Mail\\BccSettings' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/BccSettings.php',
+        'SendGrid\\Mail\\BypassBounceManagement' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/BypassBounceManagement.php',
+        'SendGrid\\Mail\\BypassListManagement' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/BypassListManagement.php',
+        'SendGrid\\Mail\\BypassSpamManagement' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/BypassSpamManagement.php',
+        'SendGrid\\Mail\\BypassUnsubscribeManagement' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/BypassUnsubscribeManagement.php',
+        'SendGrid\\Mail\\Category' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Category.php',
+        'SendGrid\\Mail\\Cc' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Cc.php',
+        'SendGrid\\Mail\\ClickTracking' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/ClickTracking.php',
+        'SendGrid\\Mail\\Content' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Content.php',
+        'SendGrid\\Mail\\CustomArg' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/CustomArg.php',
+        'SendGrid\\Mail\\EmailAddress' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/EmailAddress.php',
+        'SendGrid\\Mail\\Footer' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Footer.php',
+        'SendGrid\\Mail\\From' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/From.php',
+        'SendGrid\\Mail\\Ganalytics' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Ganalytics.php',
+        'SendGrid\\Mail\\GroupId' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/GroupId.php',
+        'SendGrid\\Mail\\GroupsToDisplay' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/GroupsToDisplay.php',
+        'SendGrid\\Mail\\Header' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Header.php',
+        'SendGrid\\Mail\\HtmlContent' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/HtmlContent.php',
+        'SendGrid\\Mail\\IpPoolName' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/IpPoolName.php',
+        'SendGrid\\Mail\\Mail' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Mail.php',
+        'SendGrid\\Mail\\MailSettings' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/MailSettings.php',
+        'SendGrid\\Mail\\MimeType' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/MimeType.php',
+        'SendGrid\\Mail\\OpenTracking' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/OpenTracking.php',
+        'SendGrid\\Mail\\Personalization' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Personalization.php',
+        'SendGrid\\Mail\\PlainTextContent' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/PlainTextContent.php',
+        'SendGrid\\Mail\\ReplyTo' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/ReplyTo.php',
+        'SendGrid\\Mail\\SandBoxMode' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/SandBoxMode.php',
+        'SendGrid\\Mail\\Section' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Section.php',
+        'SendGrid\\Mail\\SendAt' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/SendAt.php',
+        'SendGrid\\Mail\\SpamCheck' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/SpamCheck.php',
+        'SendGrid\\Mail\\Subject' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Subject.php',
+        'SendGrid\\Mail\\SubscriptionTracking' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/SubscriptionTracking.php',
+        'SendGrid\\Mail\\Substitution' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/Substitution.php',
+        'SendGrid\\Mail\\TemplateId' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/TemplateId.php',
+        'SendGrid\\Mail\\To' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/To.php',
+        'SendGrid\\Mail\\TrackingSettings' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/TrackingSettings.php',
+        'SendGrid\\Mail\\TypeException' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail/TypeException.php',
+        'SendGrid\\Stats\\Stats' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/stats/Stats.php',
         'TwilioEmail' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/TwilioEmail.php',
     );
 

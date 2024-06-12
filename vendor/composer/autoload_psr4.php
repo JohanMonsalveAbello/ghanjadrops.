@@ -13,4 +13,5 @@ return array(
     'SendGrid\\Contacts\\' => array($vendorDir . '/sendgrid/sendgrid/lib/contacts'),
     'SendGrid\\' => array($vendorDir . '/sendgrid/php-http-client/lib'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
+    'App\\' => array($baseDir . '/src'),
 );
